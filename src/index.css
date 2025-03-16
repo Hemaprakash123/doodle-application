@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+}
+
+.canvas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.canvas-wrapper {
+  position: relative;
+  border: 2px solid black;
+}
+
+.canvas-text {
+  position: absolute;
+  color: red;
+  font-weight: bold;
+}
+
+.controls, .color-picker, .text-input {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.btn-danger { background-color: red; }
+.btn-primary { background-color: blue; }
+.btn-success { background-color: green; }
+.btn-dark { background-color: black; }
+.btn-light { background-color: gray; }
+.btn-purple { background-color: purple; }
+.btn-indigo { background-color: indigo; }
+
+.color-btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+.brush-size {
+  padding: 5px;
+  border-radius: 5px;
+}
